@@ -1,0 +1,46 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/popper.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./lk-css/common.css">
+        <link rel="stylesheet" href="./lk-css/register.css">
+        <script src="./js/reg.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="d-flex flex-column align-items-center">
+                <h1 class="reg-m p-5 text-center">注册</h1>
+                <form method="POST" action="/customer/register" class="mb-0 mt-4">
+                    <fieldset>
+                        <div class="inp_bor position-relative">
+                            <input type="text" class="inp uname-inp position-absolute" name="uname">
+                            <label for="" class="inp_text label-uname position-absolute">用户名</label>
+                        </div>
+                        <div class="inp_bor position-relative mt-5">
+                            <input type="text" class="inp phone-inp position-absolute" name="phone">
+                            <label for="" class="inp_text label-phone position-absolute">手机号码</label>
+                        </div>
+                        <div class="slide_block mt-3 position-relative">
+                            <span>请按住滑块，拖动到最右边</span>
+                            <div class="slide_btn position-absolute">>></div>
+                        </div>
+                    </fieldset>
+                    <div class="text-center mt-5 mb-4">
+                        <button class="btn_vcode">发送验证码</button>
+                    </div>
+                </form>
+                <div>
+                    <span class="span_text">已经是注册用户?</span>
+                    <a href="./login.html" class="form_text ml-2">登录</a>
+                </div>
+            </div>
+        </div>
+        <script src="../public/js/jquery-1.11.3.js"></script>
+        <script src="../public/js/reg.js"></script>
+    </body>
+</html>

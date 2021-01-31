@@ -1,0 +1,78 @@
+.reg-m{
+    margin: 0 auto;
+    font: 2.5rem microsoft yahei;
+    color: #fff;
+}
+.inp{
+    width: 100%;
+    border: 0;
+    background: #000000;
+    font: 1rem microsoft yahei;
+    color: #fff;
+    padding: 10px 20px;
+    bottom: 0;
+}
+.inp_text{
+    font: 1rem microsoft yahei;
+    color: #767676;
+    left: 1rem;bottom: 0.5rem;
+    transition: all 0.5s ease-in-out;
+}
+.rise{
+    color: #bababa;
+    transform: translate(-1rem,-2rem);
+}
+.inp_bor{
+    width: 25rem;height: 3rem;
+    border-bottom: 1px solid #fff;
+}
+.inp_bor::before{
+    content: "";
+    display: block;
+    height: 50%;
+    border-left: 1px solid #fff;
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+}
+.inp:focus{outline: 0;}
+.slide_block{
+    width: 25rem;height: 3rem;
+    border: 1px solid #fff;
+    font: 1rem microsoft yahei;
+    color: #fff;
+    text-align: center;
+    line-height: 3rem;
+}
+.slide_btn{
+    width: 12%;height: 80%;
+    border: 1px solid #fff;
+    line-height: 1.8rem;
+    bottom: 0.3rem;left: 0.3rem;
+}
+.span_text{
+    font: 1rem microsoft yahei;
+    color: #fff;
+}
+.form_text{
+    font: 1rem microsoft yahei;
+    color: #fff;
+    text-decoration: underline;
+}
+.form_text:hover{color: #fff;}
+.btn_vcode{
+    width: 7.5rem;height: 3rem;
+    font: bold 1rem microsoft yahei;
+    color: #ff485b;
+    background: rgba(0,0,0,1);
+    border: 0;outline: 0;
+    border-top: 1px solid #ff485b;
+    border-right: 1px solid #ff485b;
+}
+.button2:hover{
+    border: 0;
+    border-bottom: 1px solid #ff485b;
+    border-left: 1px solid #ff485b;
+    color: #fff;
+}
+.btn_vcode:focus{outline: 0;}

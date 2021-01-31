@@ -1,0 +1,11 @@
+body{background: #000;font-family: microsoft yahei;}
+.iframe_index-header{width: 100%;height: 4.375rem; border: 0;position: fixed;top: 0rem;z-index: 98;}
+.iframe_index-footer{width: 100%;height: 32rem; border: 0;}
+/* @media (min-width:576px) {
+    .iframe_header{height: 10rem;}
+    .iframe_footer{height: 33rem;}
+}
+@media (min-width:992px) {
+    .iframe_header{height: 10rem;}
+    .iframe_footer{height: 23rem;}
+} */

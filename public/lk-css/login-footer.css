@@ -1,0 +1,17 @@
+
+.top_text{
+    font: 0.9rem microsoft yahei;
+    color: #ffffff;
+}
+.top_text:hover{
+    font: 0.9rem microsoft yahei;
+    color: #ffffff;
+}
+.bottom_text{
+    font: 0.9rem microsoft yahei;
+    color: #000000;
+}
+.bottom_text:hover{
+    font: 0.9rem microsoft yahei;
+    color: #000000;
+}

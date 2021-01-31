@@ -1,0 +1,85 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/popper.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./lk-css/common.css">
+        <link rel="stylesheet" href="./lk-css/product_details.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- 商品详情页面头部 -->
+            <div class="pd_details_header d-flex flex-nowrap justify-content-between align-items-center">
+                <a href="#"><img src="../picture/blogo.png" alt=""></a>
+                <div class="d-flex flex-nowrap align-items-center">
+                    <div class="product_inp_block d-inline-block d-flex flex-nowrap align-items-center">
+                        <img class="lk_search ml-1" src="../shop_picture/search.png" alt="">
+                        <input type="text" class="product_inp ml-2">
+                    </div>
+                    <div class="d-inline-block">
+                        <span class="ml-5">
+                            <img class="product_car mb-1" src="../shop_picture/car.png" alt="">领克整车
+                        </span>
+                        <span class="ml-4 mt-2">消息</span>
+                        <span class="ml-4">登录</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 固定按钮 -->
+            <div class="fixed_btn_block position-relative">
+                <ul class="list-unstyled fixed_btn position-fixed">
+                    <li class="common_btn">
+                        <a href="#"><img class="btn_img" src="../shop_picture/shop_cart.png" alt=""></a>
+                    </li>
+                    <li class="common_btn">
+                        <a href="#"><img class="btn_img" src="../shop_picture/call_service.png" alt=""></a>
+                    </li>
+                    <li class="common_btn">
+                        <a href="#"><img class="btn_img" src="../shop_picture/to_top.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 商品详情 -->
+            <div class="pb-3">
+                <div class="product_info"></div>
+                <div></div>
+            </div>
+            <div>
+
+            </div>
+            <!-- 选择商品 -->
+            <div class="select_product d-flex flex-nowrap justify-content-center align-items-center">
+                <div class="type_block d-flex flex-nowrap justify-content-between align-items-center">
+                    <span class="type_title">类型</span>
+                    <span class="dropdown d-inline-block"><img class="w-100" src="../shop_picture/drowdown.png" alt=""></span>
+                </div>
+                <div class="in_de_btn_block d-flex flex-nowrap justify-content-between align-items-center">
+                    <span class="text-white in_btn d-inline-block text-center">-</span>
+                    <input type="text" value="1" class="cart_inp d-inline-block text-center">
+                    <span class="text-white de_btn d-inline-block text-center">+</span>
+                </div>
+                <button class="add_to_cart select_btn ml-5">
+                    <img class="shop_cart_img mb-1" src="../shop_picture/small_spcart.png" alt="">
+                    <span>加入购物车</span>
+                </button>
+                <button class="purchase select_btn ml-5">
+                    <span>立即购买</span>
+                </button>
+                <button class="collection select_btn ml-5">
+                    <img class="collection_img" src="../shop_picture/collection.png" alt="">
+                    <span class="ml-2">收藏</span>
+                </button>
+            </div>
+            <!-- 商品详情标题 -->
+            <div class="details_title mt-1 d-flex flex-nowrap justify-content-center align-items-center">
+                <a href="#" class="title_block active">宝贝详情</a>
+                <a href="#" class="title_block">基本参数</a>
+                <a href="#" class="title_block">用户评价</a>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+.container-fluid{padding: 0;}
+.big_block{display: none; width: 100%; margin: auto; margin-top: 5%;text-align: center;position: relative;}
+.block1{display: inline-block;height: 80%;position: relative;}
+/* .block1:hover{} */
+.block2{display: inline-block;height: 80%;position: relative;margin-left: -2%;}
+.block3{display: inline-block;height: 80%;position: relative;margin-left: -2%;}
+.block4{display: inline-block;height: 80%;position: relative;margin-left: -4%;}
+.block5{display: inline-block;height: 80%;position: relative;margin-left: -2%;}
+.block6{display: inline-block;height: 80%;position: relative;}
+.menu-list-img{display: inline-block; height: 100%; filter: brightness(60%);}
+/* .menu-list-img2{display: inline-block; height: 100%; filter: brightness(60%);}
+.menu-list-img3{display: inline-block; height: 100%; filter: brightness(60%);}
+.menu-list-img4{display: inline-block; height: 100%; filter: brightness(60%);}
+.menu-list-img5{display: inline-block; height: 100%; filter: brightness(60%);}
+.menu-list-img6{display: inline-block; height: 100%; filter: brightness(60%);} */
+.menu-list-limg{filter: brightness(60%);}
+.menu_list_p{padding-top: 40%;top: 0;left: 0;}
+.menu-list-block{width: 100%;top: 30%;z-index: 10;}
+.menu-title{font-size: 1.25rem;color: #ccc;margin-bottom: 0.5rem;}
+.menu-ele{font-size: 0.85rem;color: #fff}
+.menu-ele:hover{text-decoration: none;color: #fff;}
+

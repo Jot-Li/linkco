@@ -1,0 +1,22 @@
+/* list-footer */
+.list-title{
+    font: 1.1rem  微软雅黑, arial;
+    color: #fff;
+}
+.list-ele{
+    font: 0.75rem 微软雅黑, arial;
+    color: #aaaaaa;
+}
+.list-ele:hover{
+    color: #aaaaaa;
+    text-decoration: none;
+}
+/* footer */
+.container-fluid{padding: 0;}
+.footer2_text{
+    font: 0.75rem mixrosoft yahei;
+    color: #808080;
+}
+.footer2_margin{margin: 0 15% !important;}
+.bottom-list{bottom: -1rem;right: 1rem;}
+.bottom-border{border-top: 1px solid #111111;}
