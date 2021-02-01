@@ -1,4 +1,13 @@
-//1,获取要修改的元素
-//2,绑定事件触发函数
-  //3,获取要修改的元素
-  //4,修改元素
+$(".menu-list-img").mouseenter(
+  function(){
+    var $this=$(this);
+    $this.css("display","none");
+    $this.next().css("display","inline-block");
+  })
+
+$(".menu-list-limg").mouseleave(
+  function(){
+    var $this = $(this);
+    $this.css("display","none");
+    $this.prev().css("display","inline-block");
+  })

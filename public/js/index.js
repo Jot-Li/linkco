@@ -37,5 +37,5 @@ $(".service").hover(
 
 //隐藏的菜单事件
 $(".menu-click").click(function(){
-    $(".big_block").css("display","block");
+    $(".big_block").toggleClass("click-show");
 })
