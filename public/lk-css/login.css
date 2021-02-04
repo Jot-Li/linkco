@@ -1,3 +1,5 @@
+.container-fluid{height: 100%;}
+.login_page{min-height: calc(100% - 200px);}
 .login-m{
     margin: 0;
     font: 2.6rem microsoft yahei;
@@ -22,17 +24,17 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus {
 	-webkit-box-shadow: 0 0 0 1000px #000 inset;
 	-webkit-text-fill-color: #fff;
 }
-.inp-text{
-    width: 25rem;height: 3rem;
-}
+.inp-text{width: 25rem;}
 .inp-text::before,::after{
     content: "";
     display: table;  
 }
-.warn_text{
+.err_phone,.input_pwd,.err_vcode,.err_pwd{
+    display: none;
     font-size: 1rem;
     color: #ede816;
 }
+
 .input-t{
     width: 100%; height: 3rem;
     border-bottom: 1px solid #fff;
@@ -68,12 +70,14 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus {
     color: #fff;
     margin-top: 2rem;
     bottom: 0.5rem;
+    cursor: pointer;
 }
 .span_text{
     font: 1rem microsoft yahei;
     color: #fff;
 }
 .slide_block{
+    display: none;
     width: 100%;
     border: 1px solid #fff;
     font: 1rem microsoft yahei;
@@ -107,6 +111,7 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus {
     border-top: 1px solid #ff485b;
     border-right: 1px solid #ff485b;
     margin: 2rem 0;
+    cursor: pointer;
 }
 .button2:hover{
     border: 0;

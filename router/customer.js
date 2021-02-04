@@ -21,6 +21,7 @@ r.get('/login',(req,res)=>{
 	//2.1获取用户提交的数据
 	var _phone = req.query.phone;
 	var _upwd = req.query.upwd;
+	console.log(_phone,_upwd);
     //2.2验证数据的有效性
 	if(!_phone){
 		res.send({code:401,msg:'phone required'});
@@ -35,9 +36,9 @@ r.get('/login',(req,res)=>{
 		if(err) throw err;
 		console.log(result);
         if(result.length===0){
-			res.send({code:301,msg:'login err'});
+			res.send("0");
         }else{
-			res.send({code:200,msg:'login ok'});
+			res.send("1");
         }
 	});
 });
